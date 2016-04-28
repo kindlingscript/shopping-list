@@ -61,10 +61,6 @@ h1 {
   cursor: pointer;
 }
 
-.text-field {
-  text-decoration: underline;
-}
-
 .add-item {
   background-color: #E85A71;
   border-color: #E85A71;
@@ -88,26 +84,18 @@ ul li {
   position: static;
 }
 
-.hover {
- color: #4EA1D3;
-}
-
-.hover-color {
-  color: #E85A71;
+.added:hover,
+.checked-off {
   text-decoration: line-through;
 }
 
-.checked-off {
+.to-delete {
   color: #E85A71;
+  text-decoration: line-through;
 }
 
 .fa-square-o {
   color: #4EA1D3;
-}
-
-.line-color {
-  color: #E85A71;
-  text-decoration: line-through;
 }
 
 .copy {
