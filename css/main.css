@@ -54,6 +54,27 @@ h1 {
   font-size: 0.8em;
   color: #E85A71;
   margin-top: 2.5em;
+  border: dashed 1px #4EA1D3;
+  display: none;
+  margin: 1em;
+  padding: 0 10px;
+  border-radius: 5px;
+}
+
+.tip {
+  margin: 0.5em;
+}
+
+.start {
+  margin-top: 1.3em;
+}
+
+.end {
+  margin-bottom: 1.3em;
+}
+
+.text-field {
+  margin-bottom: 1.5em;
 }
 
 .text-field, .add-item {
@@ -122,6 +143,29 @@ ul li {
 
 .skinny-text {
   font-family: 'overpasslight', sans-serif;
+}
+
+.autocomplete-suggestions { 
+  border: 1px solid #999; 
+  background: #fff; 
+  cursor: pointer; 
+  overflow: auto; 
+}
+
+.autocomplete-suggestion { 
+  padding: 10px 5px; 
+  font-size: 1.2em; 
+  white-space: nowrap; 
+  overflow: hidden; 
+}
+
+.autocomplete-selected { 
+  background: #f0f0f0; 
+}
+
+.autocomplete-suggestions strong { 
+  font-weight: normal; 
+  color: #3399ff; 
 }
 
 @media only screen and (max-width: 540px) {
