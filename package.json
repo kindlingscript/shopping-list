@@ -1,0 +1,24 @@
+{
+  "name": "shopping-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kindlingscript/shopping-list.git"
+  },
+  "author": "Rebecca Taylor <kindlingscript@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kindlingscript/shopping-list/issues"
+  },
+  "homepage": "https://github.com/kindlingscript/shopping-list#readme",
+  "dependencies": {
+    "font-awesome": "^4.6.3",
+    "jquery": "^3.0.0",
+    "normalize.css": "^4.1.1"
+  }
+}
